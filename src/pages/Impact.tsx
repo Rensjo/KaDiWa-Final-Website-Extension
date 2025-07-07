@@ -234,7 +234,7 @@ const Impact = () => {
             <div className="bg-gradient-to-br from-blue-50 to-blue-100 rounded-xl p-6">
               <div className="text-center mb-4">
                 <img 
-                  src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                  src="/src/images/fyang.png"
                   alt="Student success"
                   className="w-16 h-16 rounded-full mx-auto mb-2"
                 />
@@ -248,7 +248,7 @@ const Impact = () => {
             <div className="bg-gradient-to-br from-green-50 to-green-100 rounded-xl p-6">
               <div className="text-center mb-4">
                 <img 
-                  src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                  src="/src/images/alden.png"
                   alt="Teacher impact"
                   className="w-16 h-16 rounded-full mx-auto mb-2"
                 />
@@ -262,7 +262,7 @@ const Impact = () => {
             <div className="bg-gradient-to-br from-purple-50 to-purple-100 rounded-xl p-6">
               <div className="text-center mb-4">
                 <img 
-                  src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=150&h=150&fit=crop"
+                  src="/src/images/hotmariaclara.png"
                   alt="Community impact"
                   className="w-16 h-16 rounded-full mx-auto mb-2"
                 />

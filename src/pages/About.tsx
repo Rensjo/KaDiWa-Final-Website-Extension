@@ -163,47 +163,73 @@ const About = () => {
               Meet the Team
             </h2>
             <p className="text-xl text-gray-600">
-              Passionate educators, technologists, and advocates working together
+              Passionate Tech Innovators working together to make a difference in the education and digital literacy landscape of the Philippines.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <img 
-                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
-                alt="Dr. Maria Santos"
-                className="w-24 h-24 rounded-full mx-auto mb-4"
+              src="/src/images/shann.png"
+              alt="Shann Karl Felipe"
+              className="w-24 h-24 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Dr. Maria Santos</h3>
-              <p className="text-amber-600 font-medium mb-3">Founder & CEO</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Shann Karl Felipe</h3>
+              <p className="text-amber-600 font-medium mb-3">CEO</p>
               <p className="text-gray-600">
-                Education policy expert with 15+ years in digital literacy advocacy
+              Leads vision, strategy, and overall direction of KaDiWa.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <img 
-                src="https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
-                alt="Mark dela Cruz"
+                src="/src/images/jorens.png"
+                alt="Jorens Ivan Rance"
                 className="w-24 h-24 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Mark dela Cruz</h3>
-              <p className="text-amber-600 font-medium mb-3">CTO</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Jorens Ivan Rance</h3>
+              <p className="text-amber-600 font-medium mb-3">Chief Finance Officer</p>
               <p className="text-gray-600">
-                AI researcher specializing in misinformation detection and NLP
+                Manages funding, budgeting, and financial growth strategies.
               </p>
             </div>
 
             <div className="bg-white p-8 rounded-xl shadow-lg text-center">
               <img 
-                src="https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop"
-                alt="Ana Reyes"
+                src="/src/images/hanna.png"
+                alt="Hanna Libut"
                 className="w-24 h-24 rounded-full mx-auto mb-4"
               />
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Ana Reyes</h3>
-              <p className="text-amber-600 font-medium mb-3">Head of Education</p>
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Hannah Libut</h3>
+              <p className="text-amber-600 font-medium mb-3">Chief Marketing Officer</p>
               <p className="text-gray-600">
-                Former DepEd curriculum developer with expertise in learning design
+                Drives branding, promotions, and user engagement campaigns.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center">
+              <img 
+                src="/src/images/revinea.png"
+                alt="Revinea Labiano"
+                className="w-24 h-24 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Revinea Labiano</h3>
+              <p className="text-amber-600 font-medium mb-3">Chief Technological Officer</p>
+              <p className="text-gray-600">
+                Oversees platform development, innovation, and technical operations.
+              </p>
+            </div>
+
+            <div className="bg-white p-8 rounded-xl shadow-lg text-center">
+              <img 
+                src="/src/images/hassan.png"
+                alt="Hassan Maricor"
+                className="w-24 h-24 rounded-full mx-auto mb-4"
+              />
+              <h3 className="text-xl font-semibold text-gray-900 mb-2">Hassan Maricor</h3>
+              <p className="text-amber-600 font-medium mb-3">Chief Operations Officer</p>
+              <p className="text-gray-600">
+                Ensures smooth execution of daily operations and implementations.
               </p>
             </div>
           </div>

@@ -5,11 +5,11 @@ const Community = () => {
   const [activeTab, setActiveTab] = useState('leaderboard');
 
   const leaderboardData = [
-    { rank: 1, name: 'Maria Santos', coins: 15420, level: 'Master Detective', avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop' },
-    { rank: 2, name: 'Juan dela Cruz', coins: 14230, level: 'Expert Analyzer', avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop' },
-    { rank: 3, name: 'Anna Reyes', coins: 13890, level: 'Expert Analyzer', avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop' },
-    { rank: 4, name: 'Carlos Mendoza', coins: 12560, level: 'Digital Detective', avatar: 'https://images.pexels.com/photos/1121796/pexels-photo-1121796.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop' },
-    { rank: 5, name: 'Isabel Garcia', coins: 11890, level: 'Digital Detective', avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop' },
+    { rank: 1, name: 'Sassa Gurl', coins: 15420, level: 'Master Detective', avatar: '/src/images/sassa.png' },
+    { rank: 2, name: 'Queen Fyangie', coins: 14230, level: 'Expert Analyzer', avatar: '/src/images/fyang.png' },
+    { rank: 3, name: 'Alden Richards', coins: 13890, level: 'Expert Analyzer', avatar: '/src/images/alden.png' },
+    { rank: 4, name: 'Miss Hot Maria Clara', coins: 12560, level: 'Digital Detective', avatar: '/src/images/hotmariaclara.png' },
+    { rank: 5, name: 'Junjun Salarzon', coins: 11890, level: 'Digital Detective', avatar: '/src/images/junjun.png' },
   ];
 
   const achievements = [
@@ -196,22 +196,22 @@ const Community = () => {
                 <div className="space-y-6">
                   {[
                     {
-                      name: 'Rosa Martinez',
+                      name: 'Sassa Gurl',
                       role: 'Senior Citizen, Baguio',
                       story: 'KaDiWa helped me avoid sharing fake health news that could have harmed my family. The extension is so easy to use!',
-                      avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop'
+                      avatar: '/src/images/sassa.png'
                     },
                     {
-                      name: 'Miguel Santos',
+                      name: 'Sophie Prime',
                       role: 'College Student, UP Diliman',
                       story: 'As a journalism student, KaDiWa has become essential for my fact-checking workflow. It\'s like having a research assistant!',
-                      avatar: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop'
+                      avatar: '/src/images/sophie.png'
                     },
                     {
-                      name: 'Teacher Linda Cruz',
+                      name: 'Teacher Junjun',
                       role: 'High School Teacher, Cebu',
                       story: 'I use KaDiWa to teach my students about media literacy. They love earning coins while learning critical thinking skills!',
-                      avatar: 'https://images.pexels.com/photos/1065084/pexels-photo-1065084.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop'
+                      avatar: '/src/images/junjun.png'
                     }
                   ].map((testimonial, index) => (
                     <div key={index} className="border rounded-lg p-6">
